@@ -3978,6 +3978,3 @@ msgstr "« 后退"
 
 #~ msgid "VLAN Interface"
 #~ msgstr "VLAN 接口"
-
-msgid "UdPxy"
-msgstr "电视代理"
