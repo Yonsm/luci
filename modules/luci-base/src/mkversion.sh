@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cat <<EOF > $1
 local pcall, dofile, _G = pcall, dofile, _G
