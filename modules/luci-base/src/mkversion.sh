@@ -20,5 +20,6 @@ else
 end
 
 luciname    = "${3:-LuCI}"
-luciversion = "${2:-Git}"
+luciversion = "${2:4:12}"
+buildstamp  = "$(date +%Y-%m-%d)"
 EOF
