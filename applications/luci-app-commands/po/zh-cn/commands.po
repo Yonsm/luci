@@ -60,10 +60,10 @@ msgid "Configure"
 msgstr "配置"
 
 msgid "Custom Commands"
-msgstr "自定义命令"
+msgstr "自定命令"
 
 msgid "Custom arguments"
-msgstr "自定义参数"
+msgstr "自定参数"
 
 msgid "Dashboard"
 msgstr "看板"

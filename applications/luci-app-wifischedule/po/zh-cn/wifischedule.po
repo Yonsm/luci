@@ -95,7 +95,7 @@ msgid "Wednesday"
 msgstr "星期三"
 
 msgid "Wifi Schedule"
-msgstr "WiFi 计划"
+msgstr "无线计划"
 
 msgid "Wifi Schedule Logfile"
 msgstr "WiFi 计划日志文件"

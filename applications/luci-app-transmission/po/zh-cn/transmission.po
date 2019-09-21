@@ -274,7 +274,7 @@ msgid "Speed limit up enabled"
 msgstr "上传限速已启用"
 
 msgid "Transmission"
-msgstr "Transmission"
+msgstr "传输下载"
 
 msgid ""
 "Transmission daemon is a simple bittorrent client, here you can configure "
