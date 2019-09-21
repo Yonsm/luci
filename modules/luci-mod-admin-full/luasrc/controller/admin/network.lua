@@ -27,7 +27,7 @@ function index()
 			page  = node("admin", "network", "vlan")
 			page.target = cbi("admin_network/vlan")
 			page.title  = _("Switch")
-			page.order  = 20
+			page.order  = 99
 
 			page = entry({"admin", "network", "switch_status"}, call("switch_status"), nil)
 			page.leaf = true

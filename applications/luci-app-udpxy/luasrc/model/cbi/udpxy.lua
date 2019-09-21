@@ -1,7 +1,7 @@
 -- Copyright 2014 Álvaro Fernández Rojas <noltari@gmail.com>
 -- Licensed to the public under the Apache License 2.0.
 
-m = Map("udpxy", "udpxy", translate("udpxy is a UDP-to-HTTP multicast traffic relay daemon, here you can configure the settings."))
+m = Map("udpxy", "udpxy", translate("UdPxy is a UDP-to-HTTP multicast traffic relay daemon, here you can configure the settings."))
 
 s = m:section(TypedSection, "udpxy", "")
 s.addremove = true

@@ -14,7 +14,7 @@
 	local categories = disp.node_childs(tree)
 %>
    <footer>
-    Powered by <a href="https://openwrt.org"><%= ver.distversion %></a> / <a href="https://github.com/openwrt/luci">LuCI</a> <%= ver.luciversion %> / <a href="https://github.com/Yonsm/lede">Yonsm</a> <%= ver.buildstamp %>
+    Powered by <a href="https://openwrt.org">OpenWrt</a> / <a href="https://github.com/openwrt/luci">LuCI</a> / <a href="https://github.com/Yonsm/lede">Yonsm</a> <%= ver.buildstamp %>
     <% if #categories > 1 then %>
      <ul class="breadcrumb pull-right" id="modemenu">
 	    <% for i, r in ipairs(categories) do %>

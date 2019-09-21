@@ -70,7 +70,7 @@ msgid "Downlink"
 msgstr "下行速率"
 
 msgid "Enable IGDv1 mode"
-msgstr ""
+msgstr "启用  IGDv1 模式"
 
 msgid "Enable NAT-PMP functionality"
 msgstr "启用 NAT-PMP 功能"

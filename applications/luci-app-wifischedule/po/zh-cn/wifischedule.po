@@ -83,7 +83,7 @@ msgid "Tuesday"
 msgstr "星期二"
 
 msgid "Unload Modules (experimental; saves more power)"
-msgstr "卸载模块（实验性的，节省更多电量）"
+msgstr "卸载模块（省电）"
 
 msgid "View Cron Jobs"
 msgstr "查看计划任务"
@@ -95,7 +95,7 @@ msgid "Wednesday"
 msgstr "星期三"
 
 msgid "Wifi Schedule"
-msgstr "无线计划"
+msgstr "无线开关"
 
 msgid "Wifi Schedule Logfile"
 msgstr "WiFi 计划日志文件"

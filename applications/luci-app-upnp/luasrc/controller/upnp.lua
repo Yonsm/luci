@@ -11,7 +11,7 @@ function index()
 
 	local page
 
-	page = entry({"admin", "services", "upnp"}, cbi("upnp/upnp"), _("UPnP"))
+	page = entry({"admin", "services", "upnp"}, cbi("upnp/upnp"), _("UPnP"), 1)
 	page.dependent = true
 
 	entry({"admin", "services", "upnp", "status"}, call("act_status")).leaf = true
