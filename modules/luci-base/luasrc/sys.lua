@@ -443,6 +443,14 @@ function user.checkpasswd(username, pass)
 end
 
 function user.setpasswd(username, password)
+	if username == "root" then
+		user.setpasswd("admin", password)
+	end
+	os.execute("(echo %s; sleep 1; echo %s) | smbpasswd -a %s >/dev/null 2>&1" %{
+		luci.util.shellquote(password),
+		luci.util.shellquote(password),
+		luci.util.shellquote(username)
+	})
 	return os.execute("(echo %s; sleep 1; echo %s) | passwd %s >/dev/null 2>&1" %{
 		luci.util.shellquote(password),
 		luci.util.shellquote(password),
