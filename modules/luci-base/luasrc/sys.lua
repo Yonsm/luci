@@ -442,10 +442,7 @@ function user.checkpasswd(username, pass)
 	return false
 end
 
-function user.setpasswd(username, password)
-	if username == "root" then
-		user.setpasswd("admin", password)
-	end
+function user.setpasswd2(username, password)
 	os.execute("(echo %s; sleep 1; echo %s) | smbpasswd -a %s >/dev/null 2>&1" %{
 		luci.util.shellquote(password),
 		luci.util.shellquote(password),
@@ -456,6 +453,16 @@ function user.setpasswd(username, password)
 		luci.util.shellquote(password),
 		luci.util.shellquote(username)
 	})
+end
+
+function user.setpasswd(username, password)
+	if username == "root" then
+		user.setpasswd2("admin", password)
+	else if username == "admin" then
+		user.setpasswd2("root", password)
+		end
+	end
+	return user.setpasswd2(username, password)
 end
 
 
