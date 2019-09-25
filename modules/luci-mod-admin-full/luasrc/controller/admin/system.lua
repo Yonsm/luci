@@ -31,9 +31,9 @@ function index()
 		entry({"admin", "system", "leds"}, cbi("admin_system/leds"), _("<abbr title=\"Light Emitting Diode\">LED</abbr> Configuration"), 50)
 	end
 
-	entry({"admin", "system", "crontab"}, form("admin_system/crontab"), _("Scheduled Tasks"), 60)
+	entry({"admin", "system", "crontab"}, form("admin_system/crontab"), _("Scheduled Tasks"), 70)
 
-	entry({"admin", "system", "flashops"}, call("action_flashops"), _("Backup / Flash Firmware"), 70)
+	entry({"admin", "system", "flashops"}, call("action_flashops"), _("Backup / Flash Firmware"), 60)
 	entry({"admin", "system", "flashops", "reset"}, post("action_reset"))
 	entry({"admin", "system", "flashops", "backup"}, post("action_backup"))
 	entry({"admin", "system", "flashops", "backupfiles"}, form("admin_system/backupfiles"))
@@ -42,8 +42,11 @@ function index()
 	entry({"admin", "system", "flashops", "restore"}, call("action_restore"))
 	entry({"admin", "system", "flashops", "sysupgrade"}, call("action_sysupgrade"))
 
-	entry({"admin", "system", "reboot"}, template("admin_system/reboot"), _("Reboot"), 90)
-	entry({"admin", "system", "reboot", "call"}, post("action_reboot"))
+    entry({"admin", "network", "wifi_schedule"}, firstchild(), _("Wifi Schedule"), 16).dependent=false
+    entry({"admin", "network", "wifi_schedule", "tab_from_cbi"}, cbi("wifischedule/wifi_schedule"), _("Schedule"), 1)
+
+	-- entry({"admin", "system", "reboot"}, template("admin_system/reboot"), _("Reboot"), 90)
+	-- entry({"admin", "system", "reboot", "call"}, post("action_reboot"))
 end
 
 function action_clock_status()
