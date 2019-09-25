@@ -42,11 +42,8 @@ function index()
 	entry({"admin", "system", "flashops", "restore"}, call("action_restore"))
 	entry({"admin", "system", "flashops", "sysupgrade"}, call("action_sysupgrade"))
 
-    entry({"admin", "network", "wifi_schedule"}, firstchild(), _("Wifi Schedule"), 16).dependent=false
-    entry({"admin", "network", "wifi_schedule", "tab_from_cbi"}, cbi("wifischedule/wifi_schedule"), _("Schedule"), 1)
-
-	-- entry({"admin", "system", "reboot"}, template("admin_system/reboot"), _("Reboot"), 90)
-	-- entry({"admin", "system", "reboot", "call"}, post("action_reboot"))
+	entry({"admin", "system", "reboot"}, template("admin_system/reboot"), _("Reboot"), 90)
+	entry({"admin", "system", "reboot", "call"}, post("action_reboot"))
 end
 
 function action_clock_status()
