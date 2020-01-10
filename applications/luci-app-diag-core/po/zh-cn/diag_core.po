@@ -15,7 +15,7 @@ msgid "Configure Diagnostics"
 msgstr "配置诊断"
 
 msgid "Diagnostics"
-msgstr "诊断"
+msgstr "网络诊断"
 
 msgid ""
 "The diagnostics available under this menu depend on what modules you have "

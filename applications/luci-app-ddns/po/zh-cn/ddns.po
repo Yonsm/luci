@@ -189,7 +189,7 @@ msgid "Domain"
 msgstr "域名"
 
 msgid "Dynamic DNS"
-msgstr "动态 DNS"
+msgstr "动态域名"
 
 msgid ""
 "Dynamic DNS allows that your router can be reached with a fixed hostname "

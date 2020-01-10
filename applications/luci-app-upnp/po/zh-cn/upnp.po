@@ -70,7 +70,7 @@ msgid "Downlink"
 msgstr "下行速率"
 
 msgid "Enable IGDv1 mode"
-msgstr ""
+msgstr "启用  IGDv1 模式"
 
 msgid "Enable NAT-PMP functionality"
 msgstr "启用 NAT-PMP 功能"
@@ -130,7 +130,7 @@ msgid "There are no active redirects."
 msgstr "没有活动的重定向。"
 
 msgid "UPnP"
-msgstr "UPnP"
+msgstr "端口映射"
 
 msgid ""
 "UPnP allows clients in the local network to automatically configure the "

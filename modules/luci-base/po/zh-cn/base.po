@@ -117,7 +117,7 @@ msgstr ""
 "<abbr title=\"Internet Protocol Version 6\">IPv6</abbr> 后缀（十六进制）"
 
 msgid "<abbr title=\"Light Emitting Diode\">LED</abbr> Configuration"
-msgstr "<abbr title=\"Light Emitting Diode\">LED</abbr> 配置"
+msgstr "指示灯"
 
 msgid "<abbr title=\"Light Emitting Diode\">LED</abbr> Name"
 msgstr "<abbr title=\"Light Emitting Diode\">LED</abbr> 名称"
@@ -486,7 +486,7 @@ msgid "Back to scan results"
 msgstr "返回至扫描结果"
 
 msgid "Backup / Flash Firmware"
-msgstr "备份/升级"
+msgstr "备份升级"
 
 msgid "Backup / Restore"
 msgstr "备份/恢复"
@@ -738,7 +738,7 @@ msgid "DHCP Server"
 msgstr "DHCP 服务器"
 
 msgid "DHCP and DNS"
-msgstr "DHCP/DNS"
+msgstr "主机配置"
 
 msgid "DHCP client"
 msgstr "DHCP 客户端"
@@ -1369,7 +1369,7 @@ msgid "Hostname to send when requesting DHCP"
 msgstr "请求 DHCP 时发送的主机名"
 
 msgid "Hostnames"
-msgstr "主机名"
+msgstr "主机名称"
 
 msgid "Hybrid"
 msgstr "混合"
@@ -1577,7 +1577,7 @@ msgid "Installed packages"
 msgstr "已安装软件包"
 
 msgid "Interface"
-msgstr "接口"
+msgstr "网络接口"
 
 msgid "Interface %q device auto-migrated from %q to %q."
 msgstr "接口设备 %q 从 %q 自动迁移到了 %q。"
@@ -1607,7 +1607,7 @@ msgid "Interface shut down"
 msgstr "接口已关闭"
 
 msgid "Interfaces"
-msgstr "接口"
+msgstr "网络接口"
 
 msgid "Internal"
 msgstr "内部"
@@ -2622,7 +2622,7 @@ msgid "Rebind protection"
 msgstr "重绑定保护"
 
 msgid "Reboot"
-msgstr "重启"
+msgstr "重新启动"
 
 msgid "Rebooting..."
 msgstr "重启中..."
@@ -3659,7 +3659,7 @@ msgid "WireGuard VPN"
 msgstr "WireGuard VPN"
 
 msgid "Wireless"
-msgstr "无线"
+msgstr "无线网络"
 
 msgid "Wireless Adapter"
 msgstr "无线适配器"

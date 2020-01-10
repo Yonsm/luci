@@ -27,7 +27,7 @@ msgid "Aria2"
 msgstr "Aria2"
 
 msgid "Aria2 Settings"
-msgstr "Aria2 配置"
+msgstr "远程下载"
 
 msgid "Aria2 Status"
 msgstr "Aria2 状态"
