@@ -11,7 +11,7 @@ function index()
 	page = node("admin", "network")
 	page.target = firstchild()
 	page.title  = _("Network")
-	page.order  = 50
+	page.order  = 35
 	page.index  = true
 
 --	if page.inreq then
@@ -27,7 +27,7 @@ function index()
 			page  = node("admin", "network", "vlan")
 			page.target = cbi("admin_network/vlan")
 			page.title  = _("Switch")
-			page.order  = 20
+			page.order  = 99
 
 			page = entry({"admin", "network", "switch_status"}, call("switch_status"), nil)
 			page.leaf = true

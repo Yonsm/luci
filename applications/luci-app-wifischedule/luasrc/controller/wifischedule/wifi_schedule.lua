@@ -23,7 +23,7 @@ function index()
     if not nixio.fs.access("/etc/config/wifi_schedule") then
         return
     end
-    entry({"admin", "network", "wifi_schedule"}, firstchild(), _("Wifi Schedule"), 60).dependent=false
+    entry({"admin", "network", "wifi_schedule"}, firstchild(), _("Wifi Schedule"), 16).dependent=false
     entry({"admin", "network", "wifi_schedule", "tab_from_cbi"}, cbi("wifischedule/wifi_schedule"), _("Schedule"), 1)
     entry({"admin", "network", "wifi_schedule", "wifi_schedule"}, call("wifi_schedule_log"), _("View Logfile"), 2)
     entry({"admin", "network", "wifi_schedule", "cronjob"}, call("view_crontab"), _("View Cron Jobs"), 3)

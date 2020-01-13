@@ -8,7 +8,7 @@ function index()
 		return
 	end
 
-	local page = entry({"admin", "services", "udpxy"}, cbi("udpxy"), _("udpxy"))
+	local page = entry({"admin", "services", "udpxy"}, cbi("udpxy"), _("udpxy"), 100)
 	page.dependent = true
 
 end
